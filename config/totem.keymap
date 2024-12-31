@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp W  &kp L  &kp Y         &kp P           &kp K             &kp Z      &kp F          &kp O      &kp U      &kp SEMI
-         &kp C  &kp R  &kp S         &kp T           &kp B             &kp X      &kp N          &kp E      &kp I      &kp A
-&kp TAB  &kp Q  &kp J  &kp V         &kp D           &kp G             &kp M      &kp H          &kp SLASH  &kp COMMA  &kp PERIOD  &kp RET
-                       &kp LEFT_GUI  &lt NAV ESCAPE  &kp LEFT_SHIFT    &kp SPACE  &lt SYM MINUS  &kp BSPC
+         &kp W  &kp L  &kp Y         &kp P            &kp K             &kp Z      &kp F          &kp O      &kp U      &kp SEMI
+         &kp C  &kp R  &kp S         &kp T            &kp B             &kp X      &kp N          &kp E      &kp I      &kp A
+&kp TAB  &kp Q  &kp J  &kp V         &kp D            &kp G             &kp M      &kp H          &kp SLASH  &kp COMMA  &kp PERIOD  &kp RET
+                       &kp LEFT_GUI  &lt NAV AT_SIGN  &kp LEFT_SHIFT    &kp SPACE  &lt SYM MINUS  &kp BSPC
             >;
         };
 
@@ -139,7 +139,7 @@
             bindings = <
            &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS      &kp UP_ARROW    &kp SQT          &kp DQT
            &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LEFT      &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RA(O)
-&kp TILDE  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV      &kp C_NEXT       &kp BSLH   &trans
+&kp GRAVE  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PREV      &kp C_NEXT       &kp BSLH   &trans
                                      &trans     &gif      &mo ADJ      &trans        &kp C_PP      &trans
             >;
         };

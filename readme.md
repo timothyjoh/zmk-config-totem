@@ -4,7 +4,22 @@
   <img alt="TOTEM logo font" src="/docs/images/TOTEM_logo_bright.svg">
 </picture>
 
+
+# MY fork of the official ZMK config
+
+![layout](./keymap-drawer/totem.svg)
+
+## changes
+- Canary Keyboard layout
+- numpad on right hand layer 1
+-
+-
+
+----
+original ZMK notes below
 # ZMK CONFIG FOR THE TOTEM SPLIT KEYBOARD
+
+[Forked From](https://github.com/GEIGEIGEIST/zmk-config-totem) you can find the original
 
 [Here](https://github.com/GEIGEIGEIST/totem) you can find the hardware files and build guide.\
 [Here](https://github.com/GEIGEIGEIST/qmk-config-totem) you can find the QMK config for the TOTEM.

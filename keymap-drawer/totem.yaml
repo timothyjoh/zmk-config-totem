@@ -44,39 +44,39 @@ layers:
   - $$mdi:bluetooth-off$$
   - $$mdi:arrow-up-bold$$
   - {t: '=', s: +}
-  - '{'
-  - '}'
+  - (
+  - )
   - KP 7
   - KP 8
   - KP 9
-  - KP PLUS
+  - +
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - '{'
+  - '}'
   - KP 4
   - KP 5
   - KP 6
-  - KP MINUS
-  - $$mdi:backspace-reverse-outline$$
-  - $$mdi:backspace-reverse-outline$$
-  - PG UP
+  - '*'
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-caps$$
+  - PG UP
+  - END
   - PG DN
-  - (
-  - )
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - KP 1
   - KP 2
   - KP 3
-  - KP MULTIPLY
+  - .
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - ADJ
-  - KP 0
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
   - KP 0
   SYM:
   - '!'
@@ -151,10 +151,10 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   TVP 1:
   - $$mdi:keyboard-tab$$
